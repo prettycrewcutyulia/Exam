@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<html>
+    <head>
+        <title>Редактирование профиля</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+    
+    <h2>Редактирование профиля</h2>
+    
+    <form id="userForm">
+      <label for="fname">Имя:</label><br>
+      <input type="text" id="fname" name="fname" value="Иван"><br>
+      <label for="lname">Фамилия:</label><br>
+      <input type="text" id="lname" name="lname" value="Иванов"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" value="ivanov@example.com"><br>
+      <label for="bio">Обо мне:</label><br>
+      <textarea id="bio" name="bio" rows="4" cols="50">Немного обо мне</textarea><br>
+      <input type="button" value="Сохранить изменения" onclick="submitForm()">
+    </form>
+    
+    <script src="edit.js"></script>
+    </body>
+</html>
+    
